@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luuk's verjaardag</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <main>
+        <div id="closed-card" onclick="openCard()" class="card card-closed">
+          <div class="middle-text">
+            <span>Voor Luuk</span>
+            <br>
+            <span class="kleine-tekst">Klik om te openen</span>
+          </div>
+        </div>
+        <div id="open-card" class="hidden card card-opened">
+          <div class="text">
+            <h1>Lieve Luuk, onze goede vriend,</h1>
+            <p>
+              24 jaar oud, dat is een hele prestatie, echt bemind!
+              <br>
+We weten dat je van speciaal bier houdt,
+              <br>
+En dat je op feestjes altijd de dansvloer behoudt.
+            </p>
+            <p>
+            Een ontwerper ben jij bij Key Merchandise,
+              <br>
+Waarin je talent en creativiteit combineert op je eigen wijze.
+              <br>
+En dan dat nooit stressen, dat is wel wat waard,
+              <br>
+Want dat maakt jouw leven vast minder bezwaard.
+            </p>
+
+            <p>
+Maar het meest interessante nieuwtje van dit jaar,
+              <br>
+Is dat jij je tijd besteedt aan het bouwen van een bar!
+              <br>
+En ook koffie is iets waar jij van geniet,
+              <br>
+Wat je cadeau betreft, dat blijft nog even geheim, dat weet je niet.
+            </p>
+            <p>
+
+Het cadeau heeft iets te maken met de kleur,
+              <br>
+We beloven je, dat maakt het niet zuur.
+              <br>
+Dus open het maar snel en kijk wat het is,
+              <br>
+En als het bevalt, dan grijp je zeker niet mis.
+            </p>
+            <p>
+
+Dus bij deze wensen wij jou een fijne verjaardag,
+              <br>
+Vol plezier, feest en gezelligheid, elke lach is een blijvende bagage.
+              <br>
+Blijf genieten van het leven en van alles wat het biedt,
+              <br>
+              <br>
+<b>We zijn blij met jou als vriend en hopen dat je dat ook zo ziet.</b>
+            </p>
+          </div>
+        </div>
+    </main>
+	<script>
+    function openCard() {
+      document.getElementById("closed-card").classList.add("hidden");
+      document.getElementById("open-card").classList.remove("hidden");
+    }
+  </script>
+  </body>
+</html>

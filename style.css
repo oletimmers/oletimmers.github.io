@@ -1,0 +1,44 @@
+html, body, main {
+	margin: 0;
+	font-family: 'Handlee', cursive;
+	background-color: #D0F4EA;
+}
+
+.card {
+	display: block;
+	max-width: 800px;
+	width: 75vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B1CC74;
+	padding: 1rem 2rem;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	font-style: italic;
+}
+.card.hidden {
+	display: none;
+}
+
+.card-closed {
+	text-align: center;
+	max-height: 400px;
+	height: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 25vw;
+	margin-bottom: 12.5vw;
+}
+.card-opened {
+	margin-top: 12.5vw;
+	margin-bottom: 12.5vw;
+
+}
+
+.card-closed > .middle-text {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.card-closed > .middle-text > .kleine-tekst {
+	font-size: 1rem;
+}
