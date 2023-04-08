@@ -76,8 +76,14 @@ Blijf genieten van het leven en van alles wat het biedt,
     </main>
 	<script>
     function openCard() {
-      document.getElementById("closed-card").classList.add("hidden");
-      document.getElementById("open-card").classList.remove("hidden");
+      document.getElementById("closed-card").classList.add("opacity");
+      setTimeout(() => {
+        document.getElementById("closed-card").classList.add("hidden");
+        document.getElementById("open-card").classList.remove("hidden");
+      }, 500);
+      setTimeout(() => {
+        document.getElementById("open-card").classList.add("opacity");
+      }, 1000);
     }
   </script>
   </body>
